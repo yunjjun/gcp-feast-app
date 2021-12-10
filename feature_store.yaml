@@ -1,0 +1,3 @@
+project: fraud_tutorial
+registry: gs://mlops-feast-project-bucket/registry.db
+provider: gcp

@@ -1,0 +1,5 @@
+feast==0.14.0
+google-cloud-datastore
+google-cloud-bigquery
+google-cloud-storage
+google-api-python-client
