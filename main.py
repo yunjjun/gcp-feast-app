@@ -21,7 +21,7 @@ def root():
     return "Fraud Detection !"
 
 @app.post("/predict")
-def predict(response: Response, entity_rows):
+def predict(entity_rows):
     feature_vector = store.get_online_features(
         features=[
         "user_transaction_count_7d:transaction_count_7d",
